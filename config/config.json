@@ -1,0 +1,21 @@
+{
+    "azure_service_bus": {
+      "connection_string": "Endpoint=sb://bochastorenotifications.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=IPuch+4xtG5O2lD5TPe1hZXouijW81lnF+ASbLp2y74="
+    },
+    "queues": [
+      {
+        "name": "products_notifications"
+      },
+      {
+        "name": "suppliers_notifications"
+      },
+      {
+        "name": "brands_notifications"
+      }
+    ],
+    "mongodb": {
+      "uri": "localhost:27017",
+        "db_name": "notifications_manager_db"
+    }
+  }
+  
